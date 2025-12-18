@@ -22,6 +22,15 @@ dd1 = dcc.Dropdown(cities_df.name,
                    id="dd-city-sel",
                    multi=True)
 
+# Add check box here! 
+# Make a checklist with the following options 
+
+# 1. "show top five countries by population"
+# 2. "show bottom five countries by population"
+# 3. "Show top 10 countries by population"
+
+# modify the callback function to display each thing accordingly when the checkbox is clicked 
+
 # graph to hold bar chart
 graph1 = dcc.Graph(id="histo1")
 
