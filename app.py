@@ -1,4 +1,10 @@
+import pandas as pd 
 from dash import Dash, html , dcc 
+
+# DATA 
+URL = "https://raw.githubusercontent.com/plotly/datasets/refs/heads/master/2014_us_cities.csv"
+
+cities_df = pd.read_csv(URL)
 
 
 # instantiate dash
